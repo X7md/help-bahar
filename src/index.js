@@ -5,7 +5,7 @@ import Tests from './App';
 
 
 ReactDOM.render(
-  
-    <Tests />,document.getElementById('root')
+    <Tests />,
+    document.getElementById('root')
 );
 
