@@ -1,0 +1,45 @@
+.logo{
+  position: fixed; 
+  background: url("./real.jpg") no-repeat; 
+  background-position: center; 
+  background-size: contain; 
+  min-width: 90%; 
+  min-height: 90%;
+  z-index: -1; 
+}
+
+.sus{
+background-color: black;
+height: 100px;
+width: 100px;
+margin-bottom: 100%;
+margin-left: 100%;   
+}
+.hi{
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: orange;
+  margin-bottom: 100%;
+  
+}
+.jdwl{
+  position: absolute;
+  display: flex;
+  margin-left: 99%;
+  
+}
+.best{position: absolute;
+  display: flex;
+  margin-left: 66%;
+}
+.apptow{position: absolute;
+  display: flex;
+  margin-left: 33%;
+  
+}
+.rules{position: absolute;
+  display: flex;
+  margin-left: 0%;
+  
+}
