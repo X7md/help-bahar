@@ -5,24 +5,19 @@ class Tests extends Component {
   render() {
     
     return (
-      
-
-        <div className="b-border">
-          <div className="logo"></div>
-          <div className="s-border">
-            
-            <div className="hi">
-                
-                  <h3 className="jdwl"> الجدول </h3>
-                  <h3 className="best"> لوحة الشرف </h3>
-                  <h3 className="rules"> القوانين </h3>
-                  <h3 className="apptow"> البرامج </h3>
-
-                
-              </div>
-          </div>
-        </div>
-      
+     <main>
+      <nav>
+        <ul className="nav-list">
+          <li className="jdwl"> الجدول </li>
+          <li className="best"> لوحة الشرف</li>
+          <li className="rules"> القوانين</li>
+          <li className="apptow"> البرامج</li>
+        </ul>
+      </nav>
+      <section>
+        <img src="./real.jpg" alt="logo" />
+      </section>
+     </main> 
     );
   }
 }
